@@ -35,9 +35,9 @@ public class SimpleMeshGenerator : MonoBehaviour
 
         Color[] colors = new Color[]
         {
-            Color.black,
-            Color.grey,
-            Color.white,
+            Color.red,
+            Color.green,
+            Color.blue,
 
         };
 
