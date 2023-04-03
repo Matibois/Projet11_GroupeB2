@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ShaderGraph;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class SimpleMeshGenerator : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class SimpleMeshGenerator : MonoBehaviour
     void Start()
     {
         MakeTriangle();
+        //MakeQuad();
         //MakeDoubleQuad();
 
     }
@@ -30,7 +33,15 @@ public class SimpleMeshGenerator : MonoBehaviour
             0, 1, 2,
         };
 
-        BuildMesh("Triangle", vertices, indices);
+        Color[] colors = new Color[]
+        {
+            Color.black,
+            Color.grey,
+            Color.white,
+
+        };
+
+        BuildMesh("Triangle", vertices, indices, null, colors);
     }
 
     void MakeQuad()
@@ -82,7 +93,7 @@ public class SimpleMeshGenerator : MonoBehaviour
 
     }
 
-    protected void BuildMesh(string gameObjectName, Vector3[] vertices, int[] indices, Vector2[] uvs = null)
+    protected void BuildMesh(string gameObjectName, Vector3[] vertices, int[] indices, Vector2[] uvs = null, Color[] colors = null)
     {
         // Search in the scene if there is a GameObject called "gameObjectName". If yes, we destroy it.
         GameObject oldOne = GameObject.Find(gameObjectName);
@@ -100,6 +111,7 @@ public class SimpleMeshGenerator : MonoBehaviour
         meshFilter.mesh.vertices = vertices;
         meshFilter.mesh.triangles = indices;
         meshFilter.mesh.uv = uvs;
+        meshFilter.mesh.colors = colors;
 
         // Apply the material.
         meshRenderer.material = _MeshMaterial != null ? _MeshMaterial : new Material(Shader.Find("Universal Render Pipeline/Unlit"));
