@@ -8,8 +8,6 @@ public class SimpleMeshGenerator : MonoBehaviour
 {
     public Material _MeshMaterial;
 
-    [SerializeField] float x = 0;
-    [SerializeField] float y = 0;
 
     void Start()
     {
@@ -24,7 +22,7 @@ public class SimpleMeshGenerator : MonoBehaviour
         Vector3[] vertices = new Vector3[]
         {
             new Vector3(0,0,0),
-            new Vector3(0,1,0),
+            new Vector3(0.5f,1,0),
             new Vector3(1,0,0),
         };
 
@@ -40,8 +38,13 @@ public class SimpleMeshGenerator : MonoBehaviour
             Color.blue,
 
         };
-
-        BuildMesh("Triangle", vertices, indices, null, colors);
+        Vector2[] uvs = new Vector2[]
+        {
+            new Vector2(0.1f,0.6f),
+            new Vector2(0.25f,0.9f),
+            new Vector2(0.4f,0.6f),
+        };
+        BuildMesh("Triangle", vertices, indices, uvs, colors);
     }
 
     void MakeQuad()
