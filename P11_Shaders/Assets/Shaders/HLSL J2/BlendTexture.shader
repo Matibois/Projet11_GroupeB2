@@ -23,6 +23,7 @@ Shader"Learning/Unlit/BlendTexture"
 #include "UnityCG.cginc"
 sampler2D _Texture0, _Texture1;
 float _BlendFactor;
+
 struct vertexInput
 {
     float4 vertex : POSITION;

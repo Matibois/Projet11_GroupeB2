@@ -23,6 +23,7 @@ Shader "Learning/Unlit/BlendColors"
             #include "UnityCG.cginc"
             float4 _Color0, _Color1;
             float _BlendFactor;
+
 			struct vertexInput
             {
                 float4 vertex : POSITION;	

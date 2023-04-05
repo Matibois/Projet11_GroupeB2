@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BlendTextureDistance
-  m_Shader: {fileID: 4800000, guid: 7f7278c78c5a16b4c86aa10bfc66e9fa, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9e14dbff26159d64b820d500652ffd62, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -145,6 +145,8 @@ Material:
     - _Color0: {r: 0.61663574, g: 0.92156863, b: 0.3411765, a: 1}
     - _Color1: {r: 0.33999997, g: 0.85, b: 0.92, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 1, g: 0, b: 0, a: 1}
+    - _SecondColor: {r: 1, g: 0.98929787, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TintColor: {r: 0, g: 1, b: 0.1733334, a: 1}
   m_BuildTextureStacks: []
