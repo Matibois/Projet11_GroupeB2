@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class TopDownShooterController : MonoBehaviour
 {
     [SerializeField] private LayerMask _aimColliderMask;
-    [SerializeField] private Transform _debugTransform;
+    //[SerializeField] private Transform _debugTransform;
     [SerializeField] private Transform _pfBulletProjectile;
     [SerializeField] private Transform _spawnBulletPosition;
     private ThirdPersonController _thirdPersonController;
@@ -30,7 +30,7 @@ public class TopDownShooterController : MonoBehaviour
         Transform hitTransform = null;
         if (Physics.Raycast(ray, out RaycastHit hitInfo, 999f, _aimColliderMask))
         {
-            _debugTransform.position = hitInfo.point;
+            //_debugTransform.position = hitInfo.point;
             mouseWorldPosition = hitInfo.point;
             hitTransform = hitInfo.transform;
         }
