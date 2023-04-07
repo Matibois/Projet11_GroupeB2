@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Enemy : MonoBehaviour
 {
     NavMeshAgent agent;
-    public Transform targetPlayer;
+    [SerializeField] Transform targetPlayer;
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();

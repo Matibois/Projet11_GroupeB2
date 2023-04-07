@@ -8,6 +8,11 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
+	"picker_window_position_offset.3172962C" = "156,8;480,8;320;550,4"
+	"picker_search_text.3172962C" = "rober "
+	"last_search.3172962C" = "rober "
+	"OpenInspectorPreview.3172962C" = "0"
+	"currentGroup.3172962C" = "all"
 }
 providers = {
 	adb = {
