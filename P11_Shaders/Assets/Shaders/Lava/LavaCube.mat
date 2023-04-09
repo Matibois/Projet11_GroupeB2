@@ -25,11 +25,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _LavaNormal:
-        m_Texture: {fileID: 2800000, guid: 9a3bea90e0be2f14bb72cf5f6a4a4f3f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5048b8ba3627749ca97fb49b9bda9f00, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LavaTexture:
-        m_Texture: {fileID: 2800000, guid: b84c06634cf9f264689ef6f843c6c234, type: 3}
+        m_Texture: {fileID: 2800000, guid: a06e975c1edee4db2bb4db5c585733f1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_bec5b31beb234e2fa2ffa3bb69b8933d_Texture_1:
@@ -55,23 +55,23 @@ Material:
     - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SimpleNoiseAmount: 0
-    - _SimpleNoisePower: 0
-    - _SimpleNoiseScale: 0
+    - _SimpleNoiseAmount: 1
+    - _SimpleNoisePower: 1
+    - _SimpleNoiseScale: 6.35
     - _Smoothness: 0.5
-    - _VoronoiAmount: 0
-    - _VoronoiAngleOfset: 0
-    - _VoronoiScale: 0
+    - _VoronoiAmount: 3.25
+    - _VoronoiAngleOfset: 0.55
+    - _VoronoiScale: 3
     m_Colors:
     - _BottoRemap: {r: 0, g: 1, b: 0, a: 0}
     - _FresnelColor: {r: 103.968315, g: 12.672857, b: 0, a: 1}
     - _LavaColor: {r: 181.83842, g: 25.107399, b: 0, a: 1}
     - _LavaNormalSpeed: {r: 0, g: 0.0005, b: 0, a: 0}
-    - _LavaRemap: {r: 0, g: 0, b: 0, a: 0}
-    - _LavaScale: {r: 1, g: 1, b: 0, a: 0}
-    - _LavaSpeed: {r: 0, g: 0.001, b: 0, a: 0}
-    - _SimpleNoiseSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _VoronoiSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _LavaRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _LavaScale: {r: 20, g: 20, b: 0, a: 0}
+    - _LavaSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _SimpleNoiseSpeed: {r: 0, g: 1, b: 0, a: 0}
+    - _VoronoiSpeed: {r: 0, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6533630610047634904
 MonoBehaviour:
