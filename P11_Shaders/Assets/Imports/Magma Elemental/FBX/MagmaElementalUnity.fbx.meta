@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 5b4f683135a567640ac836e07189673d
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bone
+  - first:
+      1: 100002
+    second: chest
+  - first:
+      1: 100004
+    second: Elemental
+  - first:
+      1: 100006
+    second: Fire Elemental
+  - first:
+      1: 100008
+    second: forearm.L
+  - first:
+      1: 100010
+    second: forearm.L.001
+  - first:
+      1: 100012
+    second: forearm.L.002
+  - first:
+      1: 100014
+    second: forearm.L.003
+  - first:
+      1: 100016
+    second: forearm.L.004
+  - first:
+      1: 100018
+    second: forearm.L.005
+  - first:
+      1: 100020
+    second: forearm.L.006
+  - first:
+      1: 100022
+    second: forearm.L.007
+  - first:
+      1: 100024
+    second: forearm.L.008
+  - first:
+      1: 100026
+    second: forearm.R
+  - first:
+      1: 100028
+    second: forearm.R.001
+  - first:
+      1: 100030
+    second: forearm.R.002
+  - first:
+      1: 100032
+    second: forearm.R.003
+  - first:
+      1: 100034
+    second: forearm.R.004
+  - first:
+      1: 100036
+    second: forearm.R.005
+  - first:
+      1: 100038
+    second: forearm.R.006
+  - first:
+      1: 100040
+    second: forearm.R.007
+  - first:
+      1: 100042
+    second: forearm.R.008
+  - first:
+      1: 100044
+    second: hips
+  - first:
+      1: 100046
+    second: //RootNode
+  - first:
+      1: 100048
+    second: shoulder.L
+  - first:
+      1: 100050
+    second: shoulder.R
+  - first:
+      1: 100052
+    second: spine
+  - first:
+      1: 100054
+    second: upper_arm.L
+  - first:
+      1: 100056
+    second: upper_arm.R
+  - first:
+      4: 400000
+    second: Bone
+  - first:
+      4: 400002
+    second: chest
+  - first:
+      4: 400004
+    second: Elemental
+  - first:
+      4: 400006
+    second: Fire Elemental
+  - first:
+      4: 400008
+    second: forearm.L
+  - first:
+      4: 400010
+    second: forearm.L.001
+  - first:
+      4: 400012
+    second: forearm.L.002
+  - first:
+      4: 400014
+    second: forearm.L.003
+  - first:
+      4: 400016
+    second: forearm.L.004
+  - first:
+      4: 400018
+    second: forearm.L.005
+  - first:
+      4: 400020
+    second: forearm.L.006
+  - first:
+      4: 400022
+    second: forearm.L.007
+  - first:
+      4: 400024
+    second: forearm.L.008
+  - first:
+      4: 400026
+    second: forearm.R
+  - first:
+      4: 400028
+    second: forearm.R.001
+  - first:
+      4: 400030
+    second: forearm.R.002
+  - first:
+      4: 400032
+    second: forearm.R.003
+  - first:
+      4: 400034
+    second: forearm.R.004
+  - first:
+      4: 400036
+    second: forearm.R.005
+  - first:
+      4: 400038
+    second: forearm.R.006
+  - first:
+      4: 400040
+    second: forearm.R.007
+  - first:
+      4: 400042
+    second: forearm.R.008
+  - first:
+      4: 400044
+    second: hips
+  - first:
+      4: 400046
+    second: //RootNode
+  - first:
+      4: 400048
+    second: shoulder.L
+  - first:
+      4: 400050
+    second: shoulder.R
+  - first:
+      4: 400052
+    second: spine
+  - first:
+      4: 400054
+    second: upper_arm.L
+  - first:
+      4: 400056
+    second: upper_arm.R
+  - first:
+      43: 4300000
+    second: Elemental
+  - first:
+      74: 7400000
+    second: Fire Elemental|Attack1
+  - first:
+      74: 7400002
+    second: Fire Elemental|Block
+  - first:
+      74: 7400004
+    second: Fire Elemental|deatch
+  - first:
+      74: 7400006
+    second: Fire Elemental|deatch2
+  - first:
+      74: 7400008
+    second: Fire Elemental|HandMagic
+  - first:
+      74: 7400010
+    second: Fire Elemental|Idle1
+  - first:
+      74: 7400012
+    second: Fire Elemental|Idle2
+  - first:
+      74: 7400014
+    second: Fire Elemental|Idle3
+  - first:
+      74: 7400016
+    second: Fire Elemental|MagicHand2
+  - first:
+      74: 7400018
+    second: Fire Elemental|Punch1
+  - first:
+      74: 7400020
+    second: Fire Elemental|Run
+  - first:
+      74: 7400022
+    second: Fire Elemental|Run2
+  - first:
+      74: 7400024
+    second: Elemental|Idle3
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Elemental
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fire Elemental|Run (1)
+      takeName: Fire Elemental|Run
+      internalID: 7400000
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|Block
+      takeName: Fire Elemental|Block
+      internalID: 7400002
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|deatch
+      takeName: Fire Elemental|deatch
+      internalID: 7400004
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|deatch2
+      takeName: Fire Elemental|deatch2
+      internalID: 7400006
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|HandMagic
+      takeName: Fire Elemental|HandMagic
+      internalID: 7400008
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|Idle1
+      takeName: Fire Elemental|Idle1
+      internalID: 7400010
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|Idle2
+      takeName: Fire Elemental|Idle2
+      internalID: 7400012
+      firstFrame: 0
+      lastFrame: 154
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|Idle3
+      takeName: Fire Elemental|Idle3
+      internalID: 7400014
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|MagicHand2
+      takeName: Fire Elemental|MagicHand2
+      internalID: 7400016
+      firstFrame: 0
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|Punch1
+      takeName: Fire Elemental|Punch1
+      internalID: 7400018
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|Run
+      takeName: Fire Elemental|Run
+      internalID: 7400020
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Elemental|Run2
+      takeName: Fire Elemental|Run2
+      internalID: 7400022
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Elemental|Idle3
+      takeName: Elemental|Idle3
+      internalID: 7400024
+      firstFrame: 0
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: MagmaElementalUnity(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fire Elemental
+      parentName: MagmaElementalUnity(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -4.32978e-17, y: 0.7071067, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hips
+      parentName: Fire Elemental
+      position: {x: -0.016987419, y: 0.102347106, z: 1.0670273}
+      rotation: {x: -0.025660057, y: -0.684264, z: -0.72842234, w: -0.022918938}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999976}
+    - name: spine
+      parentName: hips
+      position: {x: -9.313226e-10, y: 0.7090276, z: -0.0000000020954758}
+      rotation: {x: -0.070921406, y: -0.00039812736, z: 0.004997699, w: 0.9974693}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: chest
+      parentName: spine
+      position: {x: 0.0000000031432137, y: 0.58443904, z: -0.000000029220246}
+      rotation: {x: 0.09408282, y: -0.0007071523, z: -0.0063656503, w: 0.99554384}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000004}
+    - name: shoulder.L
+      parentName: chest
+      position: {x: -0.38514012, y: 1.4963515, z: -0.032536317}
+      rotation: {x: -0.49577823, y: 0.56133133, z: 0.51990175, w: 0.41086903}
+      scale: {x: 1, y: 1, z: 0.9999997}
+    - name: upper_arm.L
+      parentName: shoulder.L
+      position: {x: -0.041662887, y: 0.6988773, z: 0.015477758}
+      rotation: {x: -0.024168426, y: -0.73338026, z: -0.013494407, w: 0.67925495}
+      scale: {x: 1, y: 0.9999993, z: 0.9999999}
+    - name: forearm.L
+      parentName: upper_arm.L
+      position: {x: 0.0000000661239, y: 0.7269328, z: 0.00000007543713}
+      rotation: {x: 0.002332779, y: -0.17042159, z: -0.0061747655, w: 0.9853492}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.99999964}
+    - name: forearm.L.001
+      parentName: forearm.L
+      position: {x: 0.00000008940697, y: 1.4591415, z: 0.000000058673322}
+      rotation: {x: 0.1257947, y: 0.7558228, z: -0.12221044, w: 0.6308504}
+      scale: {x: 0.9999999, y: 1.0000015, z: 1.0000008}
+    - name: forearm.L.004
+      parentName: forearm.L.001
+      position: {x: 0.000000029802322, y: 0.40775517, z: 0.000000029802322}
+      rotation: {x: -0.29531306, y: 0.012291637, z: -0.19398889, w: 0.93541837}
+      scale: {x: 1.0000001, y: 1.0000019, z: 1.0000005}
+    - name: forearm.L.002
+      parentName: forearm.L
+      position: {x: 0.00000008940697, y: 1.4591415, z: 0.000000058673322}
+      rotation: {x: 0.0990342, y: 0.60076207, z: 0.11688527, w: 0.7846114}
+      scale: {x: 0.99999976, y: 1.0000004, z: 1.0000001}
+    - name: forearm.L.003
+      parentName: forearm.L.002
+      position: {x: 0.00000013038516, y: 0.27581427, z: 0.000000063329935}
+      rotation: {x: 0.26908624, y: 0.22622964, z: -0.031331528, w: 0.9356448}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: forearm.L.005
+      parentName: forearm.L
+      position: {x: 0.00000008940697, y: 1.4591415, z: 0.000000058673322}
+      rotation: {x: -0.038067926, y: 0.78320724, z: -0.17298947, w: 0.59599656}
+      scale: {x: 0.9999993, y: 1.0000007, z: 0.9999997}
+    - name: forearm.L.006
+      parentName: forearm.L.005
+      position: {x: -0.000000014901161, y: 0.36822182, z: 0.000000059604645}
+      rotation: {x: 0.18601282, y: 0.0014040765, z: 0.028331831, w: -0.98213774}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+    - name: forearm.L.007
+      parentName: forearm.L
+      position: {x: 0.00000008940697, y: 1.4591415, z: 0.000000058673322}
+      rotation: {x: -0.24224387, y: 0.77973855, z: -0.23255116, w: 0.5284371}
+      scale: {x: 1.0000004, y: 1.000001, z: 1.0000002}
+    - name: forearm.L.008
+      parentName: forearm.L.007
+      position: {x: -0.000000029802322, y: 0.34616435, z: -0.00000008940697}
+      rotation: {x: 0.22960499, y: 0.014040376, z: -0.15216821, w: -0.9612124}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: shoulder.R
+      parentName: chest
+      position: {x: 0.4432483, y: 1.5079464, z: -0.003965147}
+      rotation: {x: -0.72139376, y: -0.06897312, z: -0.6785835, w: 0.11982563}
+      scale: {x: 1.0000005, y: 1.0000006, z: 0.99999994}
+    - name: upper_arm.R
+      parentName: shoulder.R
+      position: {x: -0, y: 0, z: 0.015293158}
+      rotation: {x: 0.43659797, y: 0.54850674, z: 0.40777472, w: 0.5850149}
+      scale: {x: 1.0000012, y: 0.9999998, z: 1.0000007}
+    - name: forearm.R
+      parentName: upper_arm.R
+      position: {x: 0.000000480999, y: 0.7131859, z: -0.000000053085387}
+      rotation: {x: 0.03256057, y: 0.07792198, z: -0.009124487, w: 0.9963858}
+      scale: {x: 0.9999991, y: 0.9999998, z: 0.9999997}
+    - name: forearm.R.001
+      parentName: forearm.R
+      position: {x: 0.000000007450581, y: 1.4577752, z: -0.000000014901161}
+      rotation: {x: -0.060132813, y: 0.7612617, z: -0.05109031, w: -0.643626}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000007}
+    - name: forearm.R.004
+      parentName: forearm.R.001
+      position: {x: 0.000000044703484, y: 0.4085542, z: -0.000000029802322}
+      rotation: {x: -0.28908676, y: -0.011845231, z: 0.1991959, w: 0.9362743}
+      scale: {x: 1.0000001, y: 1.0000012, z: 1.0000001}
+    - name: forearm.R.002
+      parentName: forearm.R
+      position: {x: 0.000000007450581, y: 1.4577752, z: -0.000000014901161}
+      rotation: {x: -0.112516716, y: 0.6455986, z: 0.19793038, w: -0.7289486}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: forearm.R.003
+      parentName: forearm.R.002
+      position: {x: -0.000000059604645, y: 0.27441707, z: 0.000000044703484}
+      rotation: {x: 0.10501199, y: -0.18956138, z: 0.14302772, w: 0.9657029}
+      scale: {x: 0.99999946, y: 0.9999998, z: 1.0000001}
+    - name: forearm.R.005
+      parentName: forearm.R
+      position: {x: 0.000000007450581, y: 1.4577752, z: -0.000000014901161}
+      rotation: {x: 0.036186352, y: 0.7769729, z: -0.1852893, w: -0.6005595}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: forearm.R.006
+      parentName: forearm.R.005
+      position: {x: -0.0000000055879354, y: 0.36822084, z: -0.00000004284084}
+      rotation: {x: -0.18601397, y: 0.0014051497, z: 0.028331837, w: 0.98213756}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999994}
+    - name: forearm.R.007
+      parentName: forearm.R
+      position: {x: 0.000000007450581, y: 1.4577752, z: -0.000000014901161}
+      rotation: {x: -0.23925044, y: -0.77507734, z: 0.24593773, w: 0.53059316}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.9999999}
+    - name: forearm.R.008
+      parentName: forearm.R.007
+      position: {x: 0.00000006239861, y: 0.34616315, z: -0.00000010058284}
+      rotation: {x: 0.22960645, y: -0.0140405595, z: 0.15216927, w: -0.9612119}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.9999997}
+    - name: Bone
+      parentName: chest
+      position: {x: 9.313226e-10, y: 1.4203454, z: -0.0000000084983185}
+      rotation: {x: 0.0784976, y: -0.0046914956, z: -0.0045781895, w: 0.9968928}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1.0000004}
+    - name: Elemental
+      parentName: MagmaElementalUnity(Clone)
+      position: {x: -0, y: 0.2898848, z: 0}
+      rotation: {x: -0.000008705919, y: 0.7071067, z: 0.7071068, w: 0.000008489066}
+      scale: {x: 5.1912313, y: 5.2431464, z: 5.19123}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Fire Elemental
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

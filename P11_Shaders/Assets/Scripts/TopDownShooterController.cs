@@ -39,7 +39,8 @@ public class TopDownShooterController : MonoBehaviour
 
         // Set the aim direction towards the mouse world position
         Vector3 aimDirection = (mouseWorldPosition - transform.position).normalized;
-        transform.forward = Vector3.Lerp(transform.forward, aimDirection, Time.deltaTime * 10);
+        Vector3 turn = new Vector3(aimDirection.x, 0, aimDirection.z);
+        transform.forward = Vector3.Lerp(transform.forward, turn, Time.deltaTime * 10);
 
         if (_starterAssetsInputs.shoot)
         {
