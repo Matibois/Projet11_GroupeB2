@@ -35,7 +35,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BottomPower: 5
-    - _FresnelPower: -1
+    - _FresnelPower: 4.28
     - _Metallic: 0
     - _SimpleNoiseAmount: 0.83
     - _SimpleNoisePower: 1
@@ -46,6 +46,7 @@ Material:
     - _VoronoiScale: 101
     m_Colors:
     - _BottoRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _FresnelColor: {r: 103.968315, g: 12.672857, b: 0, a: 1}
     - _LavaNormalSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _LavaRemap: {r: 0, g: 1, b: 0, a: 0}
     - _LavaScale: {r: 1, g: 1, b: 0, a: 0}

@@ -51,7 +51,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BottomPower: 1.49
-    - _FresnelPower: 7.7
+    - _FresnelPower: -1.14
     - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -70,7 +70,7 @@ Material:
     - _LavaRemap: {r: 0, g: 1.22, b: 0, a: 0}
     - _LavaScale: {r: 80, g: 20, b: 0, a: 0}
     - _LavaSpeed: {r: 0, g: 0.01, b: 0, a: 0}
-    - _SimpleNoiseSpeed: {r: -0.01, g: 0.05, b: 0, a: 0}
+    - _SimpleNoiseSpeed: {r: -0.01, g: 0.03, b: 0, a: 0}
     - _VoronoiSpeed: {r: 0, g: 0.001, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6533630610047634904

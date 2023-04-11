@@ -75,7 +75,7 @@ Shader "Learning/Unlit/Fresnel"
                 // lerp entre BaseColor, FresnelColor et le rim calculé ci-dessus.
                 float4 result = lerp(_BaseColor, _OutlineColor, rim);
     
-	            return temp;
+	            return result;
             }
             ENDHLSL
         }

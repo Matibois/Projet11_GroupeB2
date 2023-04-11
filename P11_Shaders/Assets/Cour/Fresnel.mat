@@ -25,8 +25,8 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _FresnelExpo: 1.6
+    - _FresnelExpo: 0.6
     m_Colors:
-    - _BaseColor: {r: 0.3411765, g: 0.8812098, b: 0.92156863, a: 1}
-    - _OutlineColor: {r: 0.7830189, g: 0.477662, b: 0.064020365, a: 1}
+    - _BaseColor: {r: 0.3411765, g: 0.89234024, b: 0.92156863, a: 1}
+    - _OutlineColor: {r: 0.78431374, g: 0.68475145, b: 0, a: 1}
   m_BuildTextureStacks: []
