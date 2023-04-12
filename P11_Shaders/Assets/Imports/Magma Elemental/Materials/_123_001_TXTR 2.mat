@@ -95,7 +95,7 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 2
-    - _DetailNormalMapScale: 0.32
+    - _DetailNormalMapScale: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EmissionScaleUI: 3.5
