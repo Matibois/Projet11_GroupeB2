@@ -13,6 +13,16 @@ scopes = {
 	"last_search.3172962C" = "rober "
 	"OpenInspectorPreview.3172962C" = "0"
 	"currentGroup.3172962C" = "all"
+	"picker_window_position_offset.7E63D72B" = "182,4;480,8;320;550,4"
+	"picker_search_text.7E63D72B" = ""
+	"last_search.7E63D72B" = ""
+	"OpenInspectorPreview.7E63D72B" = "0"
+	"currentGroup.7E63D72B" = "all"
+	"picker_window_position_offset.74AD8FDB" = "455,2;480,8;320;550,4"
+	"picker_search_text.74AD8FDB" = ""
+	"last_search.74AD8FDB" = ""
+	"OpenInspectorPreview.74AD8FDB" = "0"
+	"currentGroup.74AD8FDB" = "all"
 }
 providers = {
 	adb = {
