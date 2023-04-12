@@ -39,10 +39,15 @@ Material:
     m_Ints: []
     m_Floats:
     - _GlowPower: 2
+    - _Metallic: 0.483
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Smoothness: 0.55
     m_Colors:
+    - _BaseColor: {r: 3.5648696, g: 0.5089408, b: 0, a: 1}
+    - _BotColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1.538267, g: 0.84995544, b: 0.29749504, a: 1}
+    - _TopColor: {r: 25.416578, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &9001822879197767051
 MonoBehaviour:
