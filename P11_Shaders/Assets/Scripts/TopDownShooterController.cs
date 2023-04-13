@@ -8,6 +8,8 @@ using UnityEngine.InputSystem;
 
 public class TopDownShooterController : MonoBehaviour
 {
+
+    public GameObject GameOverScene;
     public float HP;
     public float Damage;
     [SerializeField] private LayerMask _aimColliderMask;
@@ -59,7 +61,11 @@ public class TopDownShooterController : MonoBehaviour
     {
         _healthSystem.Damage(damage);
     }
-    private void Die(object sender, System.EventArgs e) { Destroy(gameObject); }
-
-    
+    private void Die(object sender, System.EventArgs e)
+    {
+        GameOverScene.SetActive(true);
+        GetComponent<StarterAssetsInputs>().cursorLocked = false;
+        GetComponent<StarterAssetsInputs>().cursorInputForLook = false;
+        //gameObject.SetActive(false);
+    }
 }
