@@ -28,15 +28,14 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
         agent.SetDestination(targetPlayer.position);
         
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-       if (other.gameObject.GetComponent<ThirdPersonController>() != null)
+        if (collision.gameObject.GetComponent<ThirdPersonController>() != null)
         {
             //hit player
-            other.gameObject.GetComponent<Enemy>().Hurt(Damage);
+            collision.gameObject.GetComponent<Enemy>().Hurt(Damage);
         }
     }
-    
     public void Hurt(float damage)
     {
         healthSystem.Damage(damage);
