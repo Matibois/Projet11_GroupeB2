@@ -50,7 +50,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BottomPower: 1.49
+    - _BottomPower: 3.2
     - _FresnelPower: -1.14
     - _Metallic: 0
     - _QueueControl: 0
@@ -67,7 +67,7 @@ Material:
     - _FresnelColor: {r: 103.968315, g: 12.672857, b: 0, a: 1}
     - _LavaColor: {r: 181.83842, g: 25.107399, b: 0, a: 1}
     - _LavaNormalSpeed: {r: 0, g: 0.01, b: 0, a: 0}
-    - _LavaRemap: {r: 0, g: 1.22, b: 0, a: 0}
+    - _LavaRemap: {r: 0, g: 5.39, b: 0, a: 0}
     - _LavaScale: {r: 80, g: 20, b: 0, a: 0}
     - _LavaSpeed: {r: 0, g: 0.01, b: 0, a: 0}
     - _SimpleNoiseSpeed: {r: -0.01, g: 0.03, b: 0, a: 0}
