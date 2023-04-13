@@ -14,6 +14,11 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
     Transform targetPlayer;
     HealthSystem healthSystem;
 
+    /*public SkinnedMeshRenderer skinnedMesh;
+    public float dissolveRate = 0.0125f;
+    public float refreshRate = 0.025f;
+    private Material[] skinnedmaterials;*/
+
     private void Awake()
     {
         targetPlayer = FindObjectOfType<ThirdPersonController>().transform;
@@ -23,9 +28,22 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
         healthSystem.OnDead += Die;
     }
 
+    /*private void Start()
+    {
+        if (skinnedMesh != null)
+        {
+            skinnedmaterials = skinnedMesh.materials;
+        }
+    }*/
+
     private void Update()
     {
         agent.SetDestination(targetPlayer.position);
+
+        /*if (Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(DissolveCo());
+        }*/
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -42,10 +60,32 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
         healthSystem.Damage(damage);
     }
 
-    private void Die(object sender, System.EventArgs e) { Destroy(gameObject); }
+    private void Die(object sender, System.EventArgs e) 
+    {
+        //StartCoroutine(DissolveCo());
+        Destroy(gameObject); 
+    }
 
     public HealthSystem GetHealthSystem()
     {
         return healthSystem;
     }
+
+    /*public IEnumerator DissolveCo()
+    {
+        if (skinnedmaterials.Length > 0)
+        {
+            float counter = 0;
+            while (skinnedmaterials[0].GetFloat("_dissolve_amount") < 1)
+            {
+                counter += dissolveRate;
+                for (int i = 0; i < skinnedmaterials.Length; i++)
+                {
+                    skinnedmaterials[i].SetFloat("_dissolve_amount", counter);
+                }
+                yield return new WaitForSeconds(refreshRate);
+            }
+        }
+    }*/
+
 }
