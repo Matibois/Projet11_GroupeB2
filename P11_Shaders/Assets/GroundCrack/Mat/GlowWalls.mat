@@ -39,7 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BotLine: 0.44
-    - _GlowPower: 4
+    - _GlowPower: 3
     - _Metallic: 0.179
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -49,7 +49,7 @@ Material:
     - _BaseColor: {r: 0.5283019, g: 0.02201258, b: 0, a: 1}
     - _BotColor: {r: 4.6037736, g: 0.41524234, b: 0, a: 1}
     - _Color: {r: 1.538267, g: 0.84995544, b: 0.29749504, a: 1}
-    - _GlowColor: {r: 13.766379, g: 3.9190361, b: 1.5135807, a: 0}
+    - _GlowColor: {r: 15.8134365, g: 4.501796, b: 1.7386497, a: 0}
     - _TopColor: {r: 0.2830189, g: 0.012864496, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &9001822879197767051
