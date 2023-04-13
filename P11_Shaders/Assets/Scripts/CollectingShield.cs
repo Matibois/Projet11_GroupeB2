@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class CollectingShield : MonoBehaviour
@@ -12,7 +13,15 @@ public class CollectingShield : MonoBehaviour
         {
             Debug.Log("Shield activated!");
             Col.gameObject.SetActive(false);
-            shield.gameObject.SetActive(true);
+
+            StartCoroutine(ShieldActivated(15f));
         }
+    }
+
+    public IEnumerator ShieldActivated (float TimeShield)
+    {
+        shield.gameObject.SetActive(true);
+        yield return new WaitForSeconds(TimeShield);
+        shield.gameObject.SetActive(false);
     }
 }
