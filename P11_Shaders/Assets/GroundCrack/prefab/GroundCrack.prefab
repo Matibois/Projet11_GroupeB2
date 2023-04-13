@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4363835939497325328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75,7 +75,7 @@ VisualEffect:
       - m_Value: {fileID: -3336299237231910645, guid: c31501b18d95d82419dad970a9527842,
           type: 3}
         m_Name: bot
-        m_Overridden: 0
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!73398921 &5041301445450753806
@@ -127,7 +127,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5595029019880745323}
-  - component: {fileID: 6346614108055987970}
   m_Layer: 0
   m_Name: GroundCrack
   m_TagString: Untagged
@@ -153,20 +152,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6346614108055987970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4386417690070179496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08960e99b91b40a429bad13791264de0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 7621523544628797291, guid: dad01100aa55a974bbb0840380df1f9a, type: 3}
-  spawnPos: {x: 0, y: 0, z: 0}
 --- !u!1 &6412669748439776133
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,6 +363,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 624bc63d664ff474abec0bf8a2790842, type: 2}
+    - target: {fileID: -6713879117397153617, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6713879117397153617, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6713879117397153617, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6713879117397153617, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -6713879117397153617, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6713879117397153617, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: -3521817556581804031, guid: 3148627d089058e44b7e23f7ba101042,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -388,10 +403,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: fissure
       objectReference: {fileID: 0}
+    - target: {fileID: 7065602318639349103, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065602318639349103, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065602318639349103, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065602318639349103, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065602318639349103, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065602318639349103, guid: 3148627d089058e44b7e23f7ba101042,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
     - target: {fileID: 8642582450905916995, guid: 3148627d089058e44b7e23f7ba101042,
         type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8642582450905916995, guid: 3148627d089058e44b7e23f7ba101042,
         type: 3}
