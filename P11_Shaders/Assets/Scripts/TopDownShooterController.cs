@@ -1,3 +1,4 @@
+using CodeMonkey.HealthSystemCM;
 using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
@@ -7,12 +8,15 @@ using UnityEngine.InputSystem;
 
 public class TopDownShooterController : MonoBehaviour
 {
+    public float HP;
+    public float Damage;
     [SerializeField] private LayerMask _aimColliderMask;
     [SerializeField] private Transform _pfBulletProjectile;
     [SerializeField] private Transform _spawnBulletPosition;
     private ThirdPersonController _thirdPersonController;
     private StarterAssetsInputs _starterAssetsInputs;
     private Animator _animator;
+    private HealthSystem _healthSystem;
 
     void Start()
     {
@@ -20,6 +24,8 @@ public class TopDownShooterController : MonoBehaviour
         _starterAssetsInputs = GetComponent<StarterAssetsInputs>();
         _thirdPersonController.SetRotationOnMove(false);
         _animator = GetComponent<Animator>();
+        _healthSystem = new HealthSystem(HP);
+        _healthSystem.OnDead += Die;
     }
 
     void Update()
@@ -44,8 +50,16 @@ public class TopDownShooterController : MonoBehaviour
 
         if (_starterAssetsInputs.shoot)
         {
-            Instantiate(_pfBulletProjectile, _spawnBulletPosition.position, Quaternion.LookRotation(aimDirection, Vector3.up));
+            Transform bullet = Instantiate(_pfBulletProjectile, _spawnBulletPosition.position, Quaternion.LookRotation(aimDirection, Vector3.up));
+            bullet.GetComponent<ProjectileMoveScript>().damage = Damage;
             _starterAssetsInputs.shoot = false;
         }
     }
+    public void Hurt(float damage)
+    {
+        _healthSystem.Damage(damage);
+    }
+    private void Die(object sender, System.EventArgs e) { Destroy(gameObject); }
+
+    
 }

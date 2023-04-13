@@ -25,9 +25,11 @@ public class ProjectileMoveScript : MonoBehaviour {
     public bool bounce = false;
     public float bounceForce = 10;
     public float speed;
-	[Tooltip("From 0% to 100%")]
+    [SerializeField][Range(0.1f, 10f)] float _lifeDuration = 2f;
+    [Tooltip("From 0% to 100%")]
 	public float accuracy;
 	public float fireRate;
+    public float damage;
 	public GameObject muzzlePrefab;
 	public GameObject hitPrefab;
 	public List<GameObject> trails;
@@ -76,7 +78,8 @@ public class ProjectileMoveScript : MonoBehaviour {
 				Destroy (muzzleVFX, psChild.main.duration);
 			}
 		}
-	}
+        Destroy(gameObject, _lifeDuration);
+    }
 
 	void FixedUpdate () {
         if (target != null)
@@ -128,7 +131,7 @@ public class ProjectileMoveScript : MonoBehaviour {
                     else
                         Destroy(hitVFX, ps.main.duration);
                 }
-
+                Damage(co);
                 StartCoroutine(DestroyParticle(0f));
             }
         }
@@ -138,11 +141,21 @@ public class ProjectileMoveScript : MonoBehaviour {
             rb.drag = 0.5f;
             ContactPoint contact = co.contacts[0];
             rb.AddForce (Vector3.Reflect((contact.point - startPos).normalized, contact.normal) * bounceForce, ForceMode.Impulse);
+            Damage(co);
             Destroy ( this );
         }
 	}
 
-	public IEnumerator DestroyParticle (float waitTime) {
+    private void Damage(Collision co)
+    {
+        if (co.gameObject.GetComponent<Enemy>() != null)
+        {
+            //hit target
+            co.gameObject.GetComponent<Enemy>().Hurt(damage);
+        }
+    }
+
+    public IEnumerator DestroyParticle (float waitTime) {
 
 		if (transform.childCount > 0 && waitTime != 0) {
 			List<Transform> tList = new List<Transform> ();

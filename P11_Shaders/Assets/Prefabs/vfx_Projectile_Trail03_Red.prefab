@@ -14722,8 +14722,10 @@ MonoBehaviour:
   bounce: 1
   bounceForce: 10
   speed: 20
+  _lifeDuration: 3.3
   accuracy: 95
   fireRate: 2
+  damage: 35
   muzzlePrefab: {fileID: 1549331409727172, guid: fe95cc8164149164bbcfda2abdc7aff1,
     type: 3}
   hitPrefab: {fileID: 1815465942245314, guid: 2cba8f08683097b498117361c2776834, type: 3}
