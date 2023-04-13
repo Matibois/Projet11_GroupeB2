@@ -5137,6 +5137,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floating Golem
       objectReference: {fileID: 0}
+    - target: {fileID: 6328291314418581856, guid: e4c5c0f3956e1c24496b4ae57ccc8354,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
