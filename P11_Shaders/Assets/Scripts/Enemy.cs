@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
         if (collision.gameObject.GetComponent<ThirdPersonController>() != null)
         {
             //hit player
-            collision.gameObject.GetComponent<Enemy>().Hurt(Damage);
+            collision.gameObject.GetComponent<TopDownShooterController>().Hurt(Damage);
         }
     }
     public void Hurt(float damage)

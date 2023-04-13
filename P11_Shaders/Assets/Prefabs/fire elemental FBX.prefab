@@ -1337,7 +1337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 200
-  Speed: 1
+  Speed: 2
   Damage: 20
 --- !u!54 &925598223118913403
 Rigidbody:
