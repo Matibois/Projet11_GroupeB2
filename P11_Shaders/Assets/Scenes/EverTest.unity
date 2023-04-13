@@ -2255,7 +2255,7 @@ PrefabInstance:
     - target: {fileID: 5595029019880745323, guid: caf3223c1c02d294da630cae695e80d8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5595029019880745323, guid: caf3223c1c02d294da630cae695e80d8,
         type: 3}
@@ -2337,7 +2337,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6972172138966686679, guid: caf3223c1c02d294da630cae695e80d8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2759,8 +2760,58 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4386417690070179496, guid: caf3223c1c02d294da630cae695e80d8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2021012604}
   m_SourcePrefab: {fileID: 100100000, guid: caf3223c1c02d294da630cae695e80d8, type: 3}
+--- !u!1 &2021012603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4386417690070179496, guid: caf3223c1c02d294da630cae695e80d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1958302621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!73398921 &2021012604
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021012603}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &2095553311
 GameObject:
   m_ObjectHideFlags: 0
