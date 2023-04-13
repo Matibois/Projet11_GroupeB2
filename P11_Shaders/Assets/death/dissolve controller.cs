@@ -16,21 +16,28 @@ public class NewBehaviourScript : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (skinnedmaterials.Length > 0) 
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            float counter = 0;
-            while (skinnedmaterials[0].GetFloat("_dissolve_amount") < 1)
-            {
-                counter += dissolveRate;
-                for (int i =0; i < skinnedmaterials.Length; i++)
-                {
-                    skinnedmaterials[i].SetFloat("_dissolve_amount", counter);
-                }
-                //yield return new WaitForSeconds(refreshRate);
-            }
+            StartCoroutine(DissolveCo());
         }
+    }
+
+    public IEnumerator DissolveCo()
+    {
+         if (skinnedmaterials.Length > 0)
+         {
+             float counter = 0;
+             while (skinnedmaterials[0].GetFloat("_dissolve_amount") < 1)
+             {
+                 counter += dissolveRate;
+                 for (int i = 0; i < skinnedmaterials.Length; i++)
+                 {
+                     skinnedmaterials[i].SetFloat("_dissolve_amount", counter);
+                 }
+                 yield return new WaitForSeconds(refreshRate);
+             }
+         }
     }
 }
