@@ -2924,7 +2924,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614668}
       inputSlot: {fileID: 8926484042661614739}
-    position: {x: 1369, y: 2054}
+    position: {x: 1386, y: 2094}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614668
@@ -4276,7 +4276,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 60
     m_Space: 2147483647
   m_Property:
     name: Lifetime
