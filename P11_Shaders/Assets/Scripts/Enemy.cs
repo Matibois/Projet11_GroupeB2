@@ -22,12 +22,12 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
         healthSystem = new HealthSystem(HP);
         healthSystem.OnDead += Die;
     }
+
     private void Update()
     {
-        
         agent.SetDestination(targetPlayer.position);
-        
     }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.GetComponent<ThirdPersonController>() != null)
@@ -36,10 +36,12 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
             collision.gameObject.GetComponent<TopDownShooterController>().Hurt(Damage);
         }
     }
+
     public void Hurt(float damage)
     {
         healthSystem.Damage(damage);
     }
+
     private void Die(object sender, System.EventArgs e) { Destroy(gameObject); }
 
     public HealthSystem GetHealthSystem()
