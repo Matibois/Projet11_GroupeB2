@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public void ResumeGame()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         SceneManager.LoadScene("GameScene");
     }
 

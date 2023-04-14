@@ -438,7 +438,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0dd2555d0ab8c1e489bf47abc4bd3626, type: 2}
+  - {fileID: 2100000, guid: 98dccc2836d75f64cb0556403c64ab15, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2340,8 +2340,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7101833444984899025}
+  - component: {fileID: 5075925325741875826}
   - component: {fileID: 3419351752309665319}
-  - component: {fileID: 6605268263301505523}
   - component: {fileID: 4654675731379715360}
   - component: {fileID: 4384127442507279606}
   - component: {fileID: 3766699624201624911}
@@ -2370,6 +2370,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5075925325741875826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7621523544628797291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a1c7618d490704fbda5aa5d99b5aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinnedMesh: {fileID: 6273379933037287102}
+  dissolveRate: 0.0125
+  refreshRate: 0.025
 --- !u!114 &3419351752309665319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2385,18 +2400,6 @@ MonoBehaviour:
   HP: 10
   Speed: 2
   Damage: 1
---- !u!114 &6605268263301505523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7621523544628797291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7558d32458e00ae47a113e3cb41bac98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!195 &4654675731379715360
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2411,7 +2414,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 4
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -2439,7 +2442,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5d8ea337d27021542b58159639a7e06a, type: 2}
+  - {fileID: 2100000, guid: 0dd2555d0ab8c1e489bf47abc4bd3626, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

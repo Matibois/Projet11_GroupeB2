@@ -14,16 +14,16 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.9528302, g: 0.56257015, b: 0.14082703, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.015
+  m_FogDensity: 0.01
   m_LinearFogStart: -45.32
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.15
+  m_AmbientIntensity: 2
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 5d133deeaa66ed445853e946ff25e073, type: 2}
@@ -34,11 +34,11 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
+  m_ReflectionBounces: 5
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.21111915, g: 0.05814963, b: 0.03602692, a: 1}
+  m_Sun: {fileID: 123672889}
+  m_IndirectSpecularColor: {r: 0.21108195, g: 0.05813718, b: 0.03601958, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,8 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 111ca2b2a57c0ef4a89bd77e73e2e7cf,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -393,10 +394,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -957,6 +958,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6346614108055987970, guid: caf3223c1c02d294da630cae695e80d8,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 7621523544628797291, guid: dad01100aa55a974bbb0840380df1f9a,
+        type: 3}
     - target: {fileID: 6346614108055987970, guid: caf3223c1c02d294da630cae695e80d8,
         type: 3}
       propertyPath: m_Enabled
@@ -2646,7 +2653,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 2a2763bdf31af2e40b1d29e99a7acc7d, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 6e866c73f5af13f4f9a422761fe5f2da, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1033734069
 Transform:
@@ -4072,6 +4079,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6346614108055987970, guid: caf3223c1c02d294da630cae695e80d8,
         type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 7621523544628797291, guid: dad01100aa55a974bbb0840380df1f9a,
+        type: 3}
+    - target: {fileID: 6346614108055987970, guid: caf3223c1c02d294da630cae695e80d8,
+        type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -4526,6 +4539,12 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6346614108055987970, guid: caf3223c1c02d294da630cae695e80d8,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 7621523544628797291, guid: dad01100aa55a974bbb0840380df1f9a,
+        type: 3}
     - target: {fileID: 6346614108055987970, guid: caf3223c1c02d294da630cae695e80d8,
         type: 3}
       propertyPath: m_Enabled
@@ -5869,6 +5888,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1033734069}
     m_Modifications:
+    - target: {fileID: 1482993681788004271, guid: b426b6e3b9fa6264e96ef21cbf0c39dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2893949646717600159, guid: b426b6e3b9fa6264e96ef21cbf0c39dd,
         type: 3}
       propertyPath: m_RootOrder
@@ -5929,10 +5953,25 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4223343423485680158, guid: b426b6e3b9fa6264e96ef21cbf0c39dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4703290642962328084, guid: b426b6e3b9fa6264e96ef21cbf0c39dd,
         type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106185522703872042, guid: b426b6e3b9fa6264e96ef21cbf0c39dd,
+        type: 3}
+      propertyPath: m_AutoUVMaxAngle
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7106185522703872042, guid: b426b6e3b9fa6264e96ef21cbf0c39dd,
+        type: 3}
+      propertyPath: m_IgnoreNormalsForChartDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8764298451608666711, guid: b426b6e3b9fa6264e96ef21cbf0c39dd,
         type: 3}

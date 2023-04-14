@@ -83,7 +83,6 @@ namespace StarterAssets
         {
             shoot = newShootInput;
         }
-
         private void OnApplicationFocus(bool hasFocus)
 		{
 			SetCursorState(cursorLocked);

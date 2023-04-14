@@ -63,7 +63,10 @@ public class Enemy : MonoBehaviour, IGetHealthSystem
     private void Die(object sender, System.EventArgs e) 
     {
         //StartCoroutine(DissolveCo());
-        Destroy(gameObject); 
+        if(GetComponent<DissolveController>() == null)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public HealthSystem GetHealthSystem()

@@ -39,6 +39,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
         m_Texture: {fileID: 2800000, guid: f1d7c3a4b6bf2a14dbcbe31667f611ce, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -77,12 +81,12 @@ Material:
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
-    - _dissolve_amount: 0.401
-    - _dissolvescale: 40
-    - _dissolvewidth: 0.021
-    - _metalic: 0
+    - _dissolve_amount: 0
+    - _dissolvescale: 100
+    - _dissolvewidth: 0.02
+    - _metalic: 1
     - _smoooth: 0.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _dissolvecolor: {r: 0.2407933, g: 0.9592631, b: 3.002834, a: 0}
+    - _dissolvecolor: {r: 0.8623377, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

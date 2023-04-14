@@ -68,7 +68,7 @@ Material:
     - _LavaColor: {r: 181.83842, g: 25.107399, b: 0, a: 1}
     - _LavaNormalSpeed: {r: 0, g: 0.01, b: 0, a: 0}
     - _LavaRemap: {r: 0, g: 5.39, b: 0, a: 0}
-    - _LavaScale: {r: 80, g: 20, b: 0, a: 0}
+    - _LavaScale: {r: 70, g: 30, b: 0, a: 0}
     - _LavaSpeed: {r: 0, g: 0.01, b: 0, a: 0}
     - _SimpleNoiseSpeed: {r: -0.01, g: 0.03, b: 0, a: 0}
     - _VoronoiSpeed: {r: 0, g: 0.001, b: 0, a: 0}

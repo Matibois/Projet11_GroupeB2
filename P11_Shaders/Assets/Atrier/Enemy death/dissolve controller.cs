@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class DissolveController : MonoBehaviour
 {
     public SkinnedMeshRenderer skinnedMesh;
     public float dissolveRate = 0.0125f;
@@ -14,15 +15,15 @@ public class NewBehaviourScript : MonoBehaviour
         {
             skinnedmaterials = skinnedMesh.materials;
         }
+        GetComponent<Enemy>().GetHealthSystem().OnDead += Dissolve;
     }
 
-    void Update()
+    private void Dissolve(object sender, EventArgs e)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
             StartCoroutine(DissolveCo());
-        }
     }
+
+    
 
     public IEnumerator DissolveCo()
     {
@@ -39,5 +40,6 @@ public class NewBehaviourScript : MonoBehaviour
                  yield return new WaitForSeconds(refreshRate);
              }
          }
+            Destroy(gameObject);
     }
 }

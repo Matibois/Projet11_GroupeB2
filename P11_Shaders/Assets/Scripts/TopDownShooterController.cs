@@ -66,6 +66,8 @@ public class TopDownShooterController : MonoBehaviour
         GameOverScene.SetActive(true);
         GetComponent<StarterAssetsInputs>().cursorLocked = false;
         GetComponent<StarterAssetsInputs>().cursorInputForLook = false;
-        //gameObject.SetActive(false);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        gameObject.SetActive(false);
     }
 }
