@@ -34,10 +34,10 @@ MonoBehaviour:
     m_Value: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
   highlights:
     m_OverrideState: 1
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_Value: {r: 1, g: 0.42641526, b: 0, a: 1}
   balance:
     m_OverrideState: 1
-    m_Value: 81
+    m_Value: -64
 --- !u!114 &580033461436347317
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -50,34 +50,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   skipIterations:
     m_OverrideState: 0
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.4
+    m_Value: 0.5
   intensity:
     m_OverrideState: 1
     m_Value: 0.13
   scatter:
     m_OverrideState: 0
-    m_Value: 0.7
+    m_Value: 0.621
   clamp:
-    m_OverrideState: 0
-    m_Value: 65472
+    m_OverrideState: 1
+    m_Value: 10
   tint:
     m_OverrideState: 1
     m_Value: {r: 0.990566, g: 0.264745, b: 0, a: 1}
   highQualityFiltering:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   downscale:
     m_OverrideState: 0
     m_Value: 0
   maxIterations:
-    m_OverrideState: 0
-    m_Value: 6
+    m_OverrideState: 1
+    m_Value: 8
   dirtTexture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -103,13 +103,13 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 11
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 1, g: 0.9806513, b: 0.71293795, a: 1}
   hueShift:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   saturation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 5
